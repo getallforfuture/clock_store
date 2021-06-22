@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Title</title>
+    <title>Clock Store</title>
 </head>
 <body class="body">
 
@@ -12,11 +12,11 @@
         <section class="sub-header">
             <div class="centered-holder generic-flex">
                 <div>
-                    <img src="images/phone.png">
+                    <img class="phone" src="images/phone.png" alt="phone-icon">
                     8 (812) 123-45-67    |    Работаем 7 дней в неделю    |    9:00 — 18:00
                 </div>
                 <div>
-                    <img src="images/exit.png">
+                    <img src="images/exit.png" alt="login-icon">
                     Войти / Регистрация
                 </div>
             </div>
@@ -25,17 +25,17 @@
             <a href="#"><img class="logo" alt="logo" src="images/PORTEN.svg"></a>
             <nav>
                 <menu class="header__list">
-                    <li><a href="" class="header__link">ПОНРАВИЛОСЬ</a></li>
-                    <li><a href="" class="header__link">ЛИЧНЫЙ КАБИНЕT</a></li>
-                    <li><a href="" class="header__link">НАСТРОЙКИ</a></li>
-                    <li><a href="" class="header__link"><img src="images/cart_icon.png"></a></li>
-                    <li><a href="" class="header__link"><img src="images/search_icon.png"></a></li>
+                    <li><a href="" class="header__link">Понравилось</a></li>
+                    <li><a href="" class="header__link">Личный кабинет</a></li>
+                    <li><a href="" class="header__link">Настройки</a></li>
+                    <li><a href="" class="header__link"><img src="images/cart_icon.png" alt="cart-icon"></a></li>
+                    <li><a href="" class="header__link"><img src="images/search_icon.png" alt="search-icon"></a></li>
                 </menu>
             </nav>
         </header>
 
         <section class="overview-section">
-            <img class="overview-section-logo__img" src="images/logo.png">
+            <img class="overview-section-logo__img" src="images/logo.png" alt="logo-image">
             <p class="overview-section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
         </section>
 
@@ -46,24 +46,36 @@
                 <div class="new-season__list">
                     <div class="new-season__item">
                         <div class="new-season__image-container">
-                            <img src="images/clock.png" alt="">
+                            <img src="images/clock.png" alt="clock">
                         </div>
-                        <p>Louis XVI ATHOS</p>
-                        <p>165 000 руб.</p>
+                        <div class="clock-description">
+                            <span>Louis XVI ATHOS</span>
+                        </div>
+                        <div>
+                            <span>165 000 руб.</span>
+                        </div>
                     </div>
                     <div class="new-season__item">
                         <div class="new-season__image-container">
-                            <img src="images/clock.png" alt="">
+                            <img src="images/clock.png" alt="clock">
                         </div>
-                        <p>Louis XVI ATHOS</p>
-                        <p>165 000 руб.</p>
+                        <div class="clock-description">
+                            <span>Louis XVI ATHOS</span>
+                        </div>
+                        <div>
+                            <span>165 000 руб.</span>
+                        </div>
                     </div>
                     <div class="new-season__item">
                         <div class="new-season__image-container">
-                            <img src="images/clock.png" alt="">
+                            <img src="images/clock.png" alt="clock">
                         </div>
-                        <p>Louis XVI ATHOS</p>
-                        <p>165 000 руб.</p>
+                        <div class="clock-description">
+                            <span>Louis XVI ATHOS</span>
+                        </div>
+                        <div>
+                            <span>165 000 руб.</span>
+                        </div>
                     </div>
                 </div>
 
@@ -88,65 +100,98 @@
         </section>
 
         <section class="new-positions centered-holder">
-            <h2 class="new-positions__title">Новые посупления</h2>
+            <h2 class="new-positions__title">Новые поступления</h2>
             <hr class="new-positions__divider">
             <div class="new-positions__grid">
                 <div class="new-positions__item">
                     <div class="new-positions__image-container">
                         <img src="images/clock.png" alt="">
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>
+                    <div class="clock-description">
+                        <span>Louis XVI ATHOS</span>
+                    </div>
+                    <div>
+                        <span>165 000 руб.</span>
+                    </div>
                 </div>
                 <div class="new-positions__item">
                     <div class="new-positions__image-container">
-                        <img src="images/clock.png" alt="">
+                        <img src="images/clock.png" alt="clock">
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>
+                    <div class="clock-description">
+                        <span>Louis XVI ATHOS</span>
+                    </div>
+                    <div>
+                        <span>165 000 руб.</span>
+                    </div>
                 </div>
                 <div class="new-positions__item">
                     <div class="new-positions__image-container">
-                        <img src="images/clock.png" alt="">
+                        <img src="images/clock.png" alt="clock">
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>
+                    <div class="clock-description">
+                        <span>Louis XVI ATHOS</span>
+                    </div>
+                    <div>
+                        <span>165 000 руб.</span>
+                    </div>
                 </div>
                 <div class="new-positions__item">
                     <div class="new-positions__image-container">
-                        <img src="images/clock.png" alt="">
+                        <img src="images/clock.png" alt="clock">
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>
+                    <div class="clock-description">
+                        <span >Louis XVI ATHOS</span>
+                    </div>
+                    <div>
+                        <span>165 000 руб.</span>
+                    </div>
                 </div>
                 <div class="new-positions__item">
                     <div class="new-positions__image-container">
-                        <img src="images/clock.png" alt="">
+                        <img src="images/clock.png" alt="clock">
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>
+                    <div class="clock-description">
+                        <span>Louis XVI ATHOS</span>
+                    </div>
+                    <div>
+                        <span>165 000 руб.</span>
+                    </div>
                 </div>
                 <div class="new-positions__item">
                     <div class="new-positions__image-container">
-                        <img src="images/clock.png" alt="">
+                        <img src="images/clock.png" alt="clock">
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>
+                    <div class="clock-description">
+                        <span>Louis XVI ATHOS</span>
+                    </div>
+                    <div>
+                        <span>165 000 руб.</span>
+                    </div>
                 </div>
                 <div class="new-positions__item">
                     <div class="new-positions__image-container">
-                        <img src="images/clock.png" alt="">
+                        <img src="images/clock.png" alt="clock">
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>
+                    <div class="clock-description">
+                        <span>Louis XVI ATHOS</span>
+                    </div>
+                    <div>
+                        <span>165 000 руб.</span>
+                    </div>
                 </div>
                 <div class="new-positions__item">
                     <div class="new-positions__image-container">
-                        <img src="images/clock.png" alt="">
+                        <img src="images/clock.png" alt="clock">
                     </div>
-                    <p>Louis XVI ATHOS</p>
-                    <p>165 000 руб.</p>
+                    <div class="clock-description">
+                        <span>Louis XVI ATHOS</span>
+                    </div>
+                    <div>
+                        <span>165 000 руб.</span>
+                    </div>
                 </div>
+            </div>
         </section>
         <section class="brands centered-holder">
             <h2 class="brands__title">Наши бренды</h2>
@@ -168,17 +213,39 @@
         </section>
 
         <footer class="footer">
-            <div class="footer__wrapper centered-holder ">
-
+            <div class="footer__wrapper centered-holder generic-flex">
+                <div class="about">
+                    <h2 class="footer__title">О магазине</h2>
+                    <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh. Egestas amet consectetur vel vitae aliquam dictum suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium quisque vitae, amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi, nunc.</p>
+                </div>
+                <div class="categories">
+                    <h2 class="footer__title">Категории</h2>
+                    <div class="generic-flex categories__list">
+                        <a class="categories__link" href="">часы</a>
+                        <a class="categories__link" href="">браслеты</a>
+                        <a class="categories__link" href="">ремни</a>
+                    </div>
+                    <div class="">
+                        <a class="categories__link" href="">ювелирные изделия</a>
+                        <a class="categories__link" href="">запонки</a>
+                    </div>
+                </div>
+                <div class="distribution">
+                    <h2 class="footer__title">РАссылка</h2>
+                    <p class="distribution__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.</p>
+                    <div class="email-input">
+                        <input class="email-input__field" placeholder="Ваша почта"><button class="email-input__button">ПОДПИСАТЬСЯ</button>
+                    </div>
+                </div>
             </div>
         </footer>
-        <section class="centered-holder generic-flex">
+        <section class="sup-footer centered-holder generic-flex">
             <div>
-                 © 2020 Все права защищены
+                © 2020 Все права защищены
             </div>
-           <div>
-            Сделано Figma.info
-           </div>
+            <div>
+                Сделано Figma.info
+            </div>
         </section>
     </div>
 </body>

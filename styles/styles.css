@@ -26,6 +26,9 @@
     padding: 14px 0;
     color: gray;
 }
+.phone{
+    vertical-align: bottom;
+}
 .header__list{
     display: flex;
     margin: 0;
@@ -38,6 +41,7 @@
     text-decoration: none;
     color: gray;
     font-size: 14px;
+    text-transform: uppercase;
 }
 .header__link:hover{
     color: white;
@@ -98,6 +102,10 @@
 .new-season__item:last-child {
     margin-right: 0;
 }
+.clock-description{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
 .new-season__image-container{
     background-color: #191B1C;
     padding: 56px 23px;
@@ -123,7 +131,7 @@
 }
 .new-collection__title{
     text-transform: uppercase;
-    font-family: Playfair Display;
+    font-family: Playfair Display, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -141,7 +149,7 @@
     padding: 12px 28px;
 
     text-transform: uppercase;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -171,7 +179,7 @@
     
 }
 .collection-2018__title{
-    font-family: Playfair Display;
+    font-family: Playfair Display, sans-serif;
     font-style: normal;
     font-weight:500;
     font-size: 36px;
@@ -186,21 +194,19 @@
 .collection-2018__description{
     width: 471px;
     text-align: center;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
 }
 .collection-2018__link{
     display: block;
-    margin: auto;
-    margin-top: 61px;
-    margin-bottom: 100px;
+    margin: 61px auto 100px;
     border: 1px solid white;
     padding: 12px 28px;
 
     text-transform: uppercase;
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -215,7 +221,7 @@
 }
 .new-positions__title{
     text-transform: uppercase;
-    font-family: Playfair Display;
+    font-family: Playfair Display, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -223,9 +229,7 @@
     margin: 0;
 }
 .new-positions__divider{
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin: 40px auto 80px;
     width: 120px;    
 }
 .new-positions__grid{
@@ -236,7 +240,7 @@
     text-align: left;
     margin-bottom: 150px;
 
-    font-family: Playfair Display;
+    font-family: Playfair Display,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -248,7 +252,7 @@
 }
 
 .brands__title {
-    font-family: Playfair Display;
+    font-family: Playfair Display, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -268,4 +272,72 @@
     background-image: url('../images/footer-bg.png');
     background-size: cover;
     background-position: center;
+}
+.footer__wrapper{
+    padding-top: 80px;
+    padding-bottom: 101px;
+}
+.footer__title{
+    text-transform: uppercase;
+    font-family: Playfair Display, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+.about__description{
+    width: 350px;
+}
+.categories__list{
+    margin-bottom: 20px;
+}
+.categories__link{
+    background-color:#0F0F0F;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: #D0D0D0;
+
+    text-decoration: none;
+
+    font-family: PT Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+.distribution__description{
+    width: 350px;
+    height: 42px;
+
+    font-family: PT Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 37px;
+}
+
+.email-input__field{
+    padding: 12px 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+}
+.email-input__field::-webkit-input-placeholder{
+    color: #FFFFFF;
+}
+.email-input__button{
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    letter-spacing: 0.05em;
+    border: none;
+    padding: 10px 20px;
+    font-family: PT Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+.sup-footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
